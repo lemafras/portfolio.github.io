@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b6e7e0a43e.js" crossorigin="anonymous"></script>
+    <style>
+        
+        .foto-perfil {
+            height: 100%;
+            width: auto;
+            max-width: 100%;
+            border-radius: 50%;
+        }
+        
+        .corPrimaria {
+            background-color: rgb(0, 0, 0);
+        }
+        
+        .corSecundaria {
+            background-color: coral;
+        }
+        P {
+            font-family: 'Teste', Arial, Helvetica, sans-serif;
+            color: black !important;
+        }
+        
+        .icones {
+            padding-left: 5px;
+        }
+        
+        .titulosBrancos {
+            text-underline-position: below;
+            padding-bottom: 20px;
+            font-weight: 700;
+            color:white;
+        }
+        
+        .titulosCoral {
+            text-underline-position: below;
+            padding-bottom: 20px;
+            font-weight: 700;
+            color:coral;
+        }
+        
+        .textoBranco {
+            color:white !important;
+        }
+        
+        .jumbotron {
+            margin-bottom: 0px;
+        }
+
+        .textoFooter {
+            margin-bottom: 0px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+
+    </style>
+</head>
+
+<body>
+    <nav class="corSecundaria navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand titulosBrancos" href="#">Portfólio de Leonardo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link textoBranco" href="#projetos">Projetos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link textoBranco" href="#sobre-mim">Sobre mim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link textoBranco" href="#contato">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="jumbotron text-center corPrimaria">
+        <div class="container">
+            <img class="foto-perfil" src="https://i.ibb.co/FV7X3fR/oficial.png" alt="">
+            <h1 class="jumbotron-heading titulosCoral">Leonardo Mafra</h1>
+            <p class="lead textoBranco">Estudante de Ciência da Computação.</p>
+            <p>
+                <a href="#contato" class="btn btn-dark my-2 ">Contato</a>
+            </p>
+            <a href="https://www.linkedin.com/in/leomafra/"><i class="titulosCoral fab fa-linkedin"></i></a>
+            <a href="https://github.com/lemafras"><i class="titulosCoral icones fab fa-github"></i></a>
+            <a href="https://medium.com/@domafras"><i class="titulosCoral icones fab fa-medium"></i></a>
+        </div>
+    </section>
+    <div class="album py-5 bg-light" id="projetos">
+        <div class="container">
+            <h2 class="jumbotron-heading text-center titulosCoral">Projetos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                            src="https://i.ibb.co/48Zr7xc/projeto1.jpg"
+                            data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">Projeto I, feito para o curso de Experiência Criativa (BCC). Jogo de
+                                plataforma.</p>
+                            <ul>
+                                <li>Construct 3</li>
+                                <li>GameMaker</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://mystifying-kilby-c0bc0e.netlify.com/"><button type="button"
+                                            class="btn btn-sm btn-outline-success">Construct</button></a>
+                                    <a href="https://trusting-goodall-69f54c.netlify.com/"><button type="button"
+                                            class="btn btn-sm btn-outline-primary">GameMaker</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                            src="https://i.ibb.co/SX00bJJ/projeto2.png"
+                            data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">Projeto II, feito para o curso de Experiência Criativa (BCC). Player de
+                                música.</p>
+                            <ul>
+                                <li>Processing IDE</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/lemafras/lms/projects"><button type="button"
+                                            class="btn btn-sm btn-outline-success">Apresentação</button></a>
+                                    <a href="https://github.com/lemafras/lms/projects"><button type="button"
+                                            class="btn btn-sm btn-outline-primary">Código</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                            src="https://i.ibb.co/nwrf3FB/projeto3.png"
+                            data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">Projeto III, feito para o curso de Experiência Criativa (BCC).
+                                Aplicação temática.</p>
+                            <ul>
+                                <li>Visual Studio 2019</li>
+                                <li>C#</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/lemafras/lms/projects"><button type="button"
+                                            class="btn btn-sm btn-outline-success">Apresentação</button></a>
+                                    <a href="https://github.com/lemafras/lms/projects"><button type="button"
+                                            class="btn btn-sm btn-outline-primary">Código</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                            src="https://i.ibb.co/q0CF1d2/projeto4.png"
+                            data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">PyEstar, feito para o curso de Raciocínio Algorítmico (BCC). Aplicação
+                                temática ("EstaR digital")</p>
+                            <ul>
+                                <li>Visual Studio Code</li>
+                                <li>Python</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/lemafras/lms/projects"><button type="button"
+                                            class="btn btn-sm btn-outline-success">Apresentação</button></a>
+                                    <a href="https://github.com/lemafras/lms/projects"><button type="button"
+                                            class="btn btn-sm btn-outline-primary">Código</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                            src="https://i.ibb.co/kQw6Bpz/projeto5.png"
+                            data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">PyVacina, feito para o curso de Raciocínio Algorítmico (BCC). Aplicação
+                                temática (agendar vacinas).</p>
+                            <ul>
+                                <li>Visual Studio Code</li>
+                                <li>Python</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/lemafras/lms/projects"><button type="button"
+                                            class="btn btn-sm btn-outline-success">Apresentação</button></a>
+                                    <a href="https://github.com/lemafras/lms/projects"><button type="button"
+                                            class="btn btn-sm btn-outline-primary">Código</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
+                            src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22348%22%20height%3D%22226%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20348%20226%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_172afb7c5fa%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A17pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_172afb7c5fa%22%3E%3Crect%20width%3D%22348%22%20height%3D%22226%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22116.7109375%22%20y%3D%22120.6875%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+                            data-holder-rendered="true">
+                        <div class="card-body">
+                            <p class="card-text">Notebook, feito para o curso de Modelagem de Fenômenos Físicos (BCC).
+                                Conteúdo teórico (conceitos).</p>
+                            <ul>
+                                <li>Jupyter Lab</li>
+                                <li>Python</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/lemafras/lms/projects"><button type="button"
+                                            class="btn btn-sm btn-outline-success">Apresentação</button></a>
+                                    <a href="https://github.com/lemafras/lms/projects"><button type="button"
+                                            class="btn btn-sm btn-outline-primary">Código</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Sobre mim-->
+    <section class="jumbotron text-center corPrimaria" id="sobre-mim">
+        <div class="container">
+            <h2 class="jumbotron-heading titulosCoral">Sobre mim</h2>
+            <p class="lead textoBranco">18 anos, estudante de primeiro período de Ciência da Computação pela Pontifícia Universidade Católica do Paraná.</p>
+        </div>
+    </section>
+
+    <!--Contato-->
+    <section class='corPrimaria' id="contato">
+        <div>
+            <div class="container-fluid corSecundaria">
+                <h3 style="padding-top: 60px" class="text-center titulosBranco">Buscando oportunidades.</h3>
+                <a href="mailto:domafras@gmail.com"><h4 style= "padding-bottom: 60px; margin-bottom: 0px;" class="text-center">domafras@gmail.com</h4></a>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="text-center corSecundaria textoFooter">
+        <p> LEONARDO MAFRA © 2020 </p>
+    </footer>
+</body>
+
+</html>
